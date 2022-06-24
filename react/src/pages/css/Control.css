@@ -1,0 +1,18 @@
+.SubmitButton{
+    width: 90%;
+}
+@media only screen and (min-width: 600px) {
+    .SubmitButton{
+        max-width: 15rem;
+    }
+    .ButtonRow{
+        margin-left: 50%;
+        transform: translateX(-50%);
+        max-width: 30rem;
+    }
+    ion-card{
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 50rem;
+    }
+}

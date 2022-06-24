@@ -1,0 +1,28 @@
+.SubmitButton {
+    margin-top: 1rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.ErrorText {
+    text-align: center;
+}
+.InputField {
+    border-style: solid;
+    border-radius: 5px;
+}
+.InputCard {
+    top: 50%;
+    transform: translateY(-100%);
+}
+
+.header {
+    background: red;
+}
+
+@media only screen and (min-width: 600px) {
+    .InputCard {
+        max-width: 60vw;
+        left: 50%;
+        transform: translate3d(-50%, -100%, 0);
+    }
+}
